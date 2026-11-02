@@ -1,4 +1,4 @@
-<!-- Written 11/02/2026 14:23:57 -->
+<!-- Written 11/02/2026 14:56:52 -->
 <XDFFORMAT version="1.80">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -1815,13 +1815,13 @@
   </XDFCONSTANT>
   <XDFCONSTANT uniqueid="0x6A15">
     <title>8115 C_CONF_CAT_EFF</title>
-    <description>Catalyst efficiency monitoring configuration (C_CONF_CAT_EFF). 1 = enabled, 0 = disabled.&#013;&#010;&#013;&#010;When 1 (and a lambda bank is configured) the code sets the downstream O2 sensor flag, which starts the downstream lambda sensor heater PWM outputs and the catalyst monitoring. Set to 0 to disable the downstream O2 sensors/heaters (frees their heater output pins).&#013;&#010;&#013;&#010;Located by code analysis (the routine that sets the flag reads this byte); same relative position as 0x010F on the SIMK41 and 0x0114 on ca655019/ca655022. Next to C_CONF_LAM at 0x811E.</description>
+    <description>Catalyst efficiency monitoring configuration (C_CONF_CAT_EFF). 1 = enabled, 0 = disabled.&#013;&#010;&#013;&#010;Set to 0 to disable the downstream O2 sensors/heaters and catalyst efficency monitoring.</description>
     <CATEGORYMEM index="0" category="13" />
     <EMBEDDEDDATA mmedaddress="0x8115" mmedelementsizebits="8" mmedmajorstridebits="0" mmedminorstridebits="0" />
     <decimalpl>0</decimalpl>
     <datatype>1</datatype>
     <unittype>0</unittype>
-    <DALINK index="0" />
+    <DALINK index="0" objidhash="0xEF47D046" />
     <MATH equation="X">
       <VAR id="X" />
     </MATH>
