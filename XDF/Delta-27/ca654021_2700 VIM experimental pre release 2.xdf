@@ -872,7 +872,7 @@
     <XDFPATCHENTRY name="Auto Generated Mod Part 3" address="0x8122" datasize="0x1" patchdata="02" basedata="00" />
     <XDFPATCHENTRY name="Auto Generated Mod Part 4" address="0x8224" datasize="0x2" patchdata="0303" basedata="0000" />
     <XDFPATCHENTRY name="Auto Generated Mod Part 5" address="0x8339" datasize="0x2" patchdata="0606" basedata="0000" />
-    <XDFPATCHENTRY name="Auto Generated Mod Part 6" address="0x8364" datasize="0x1" patchdata="1A" basedata="00" />
+    <XDFPATCHENTRY name="Auto Generated Mod Part 6" address="0x8364" datasize="0x1" patchdata="3E" basedata="00" />
     <XDFPATCHENTRY name="Auto Generated Mod Part 7" address="0x8844" datasize="0x7" patchdata="161F3F6A7DA4BC" basedata="00000000000000" />
     <XDFPATCHENTRY name="Auto Generated Mod Part 8" address="0x884D" datasize="0x7" patchdata="03152B5578ABD5" basedata="00000000000000" />
     <XDFPATCHENTRY name="Auto Generated Mod Part 9" address="0x8856" datasize="0x7" patchdata="161F3F6C7D99BC" basedata="00000000000000" />
