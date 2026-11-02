@@ -1,4 +1,4 @@
-<!-- Written 11/02/2026 03:47:28 -->
+<!-- Written 11/02/2026 14:23:57 -->
 <XDFFORMAT version="1.80">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -1852,7 +1852,7 @@
     <datatype>3</datatype>
     <unittype>3</unittype>
     <DALINK index="0" objidhash="0xEF441CC6" />
-    <MATH equation="X">
+    <MATH equation="X*32">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
@@ -1867,7 +1867,7 @@
     <datatype>3</datatype>
     <unittype>3</unittype>
     <DALINK index="0" objidhash="0xEF441CC6" />
-    <MATH equation="X">
+    <MATH equation="X*32">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
@@ -1882,7 +1882,7 @@
     <datatype>3</datatype>
     <unittype>3</unittype>
     <DALINK index="0" objidhash="0xEF441CC6" />
-    <MATH equation="X">
+    <MATH equation="X*32">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
@@ -1896,7 +1896,7 @@
     <datatype>3</datatype>
     <unittype>3</unittype>
     <DALINK index="0" objidhash="0xEF441CC6" />
-    <MATH equation="X">
+    <MATH equation="X/2.56">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
@@ -1910,7 +1910,7 @@
     <datatype>3</datatype>
     <unittype>3</unittype>
     <DALINK index="0" objidhash="0xEF441CC6" />
-    <MATH equation="X">
+    <MATH equation="X/2.56">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
@@ -1924,7 +1924,7 @@
     <datatype>3</datatype>
     <unittype>3</unittype>
     <DALINK index="0" objidhash="0xEF441CC6" />
-    <MATH equation="X">
+    <MATH equation="X/2.56">
       <VAR id="X" />
     </MATH>
   </XDFCONSTANT>
@@ -2100,7 +2100,7 @@
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X">
+      <MATH equation="X*32">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -2147,7 +2147,7 @@
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X">
+      <MATH equation="X/2.56">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -2195,7 +2195,7 @@
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X">
+      <MATH equation="X*32">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -2242,7 +2242,7 @@
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X">
+      <MATH equation="X/2.56">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -2290,7 +2290,7 @@
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X">
+      <MATH equation="X*32">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
@@ -2337,7 +2337,7 @@
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>1</outputtype>
-      <MATH equation="X">
+      <MATH equation="X/2.56">
         <VAR id="X" />
       </MATH>
     </XDFAXIS>
