@@ -4,7 +4,7 @@
     <flags>0x1</flags>
     <fileversion>01</fileversion>
     <deftitle>Hyundai 2.7L Siemens 654021: VIM experimental pre release 2</deftitle>
-    <description>Authors : OpenGK - chase206, dmg210, dante, kylem, KimchiSpiceWorks, Not A TR7</description>
+    <description>Authors : OpenGK - chase206, dmg210, dante, kylem, KimchiSpiceWorks, Not A TR7&#013;&#010;&#013;&#010;theres a 64 character limit for the author section :~)</description>
     <author>OpenGK - chase206, dmg210, dante, kylem, KimchiSpiceWorks, Not A</author>
     <BASEOFFSET offset="0" subtract="0" />
     <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
