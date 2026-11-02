@@ -1,4 +1,4 @@
-<!-- Written 11/02/2026 14:56:52 -->
+<!-- Written 11/02/2026 15:31:04 -->
 <XDFFORMAT version="1.80">
   <XDFHEADER>
     <flags>0x1</flags>
@@ -20,6 +20,7 @@
     <CATEGORY index="0x27" name="Variable Intake Manifold" />
     <CATEGORY index="0x2B" name="Identification" />
     <CATEGORY index="0x2C" name="Community Patches" />
+    <CATEGORY index="0x7FF" name="PROGRAM ZONE PATCHES" />
   </XDFHEADER>
   <XDFPATCH uniqueid="0x4BED">
     <title>Ghost Cams</title>
@@ -864,7 +865,7 @@
   </XDFPATCH>
   <XDFPATCH uniqueid="0x3AB1">
     <title>Variable Intake Enable</title>
-    <description>Enables variable intake using same values as a tuscan bin. Requires installing a variable intake, and either running 2 wires from the ecu or using the VIM on Lambda patch.&#013;&#010;&#013;&#010;- Not A TR7</description>
+    <description>Enables variable intake using same values as a tuscan bin. Requires installing a variable intake, and either running 2 wires from the ecu or using the VIM on Lambda program zone patch.&#013;&#010;&#013;&#010;- Not A TR7</description>
     <CATEGORYMEM index="0" category="45" />
     <CATEGORYMEM index="1" category="40" />
     <XDFPATCHENTRY name="Auto Generated Mod Part 1" address="0x80CE" datasize="0x2" patchdata="0101" basedata="0000" />
@@ -886,6 +887,7 @@
     <description>THIS IS A PROGRAM PATCH NOT A CALIBRATION PATCH&#013;&#010; - developed for ca654021_G5N7TS0B_KR77035116&#013;&#010;&#013;&#010;Moves the VIM outputs onto the downstream O2 heater pins and turns the heaters off in code. VIM_1 drives  the bank 1 heater pin, VIM_2 the bank 2 heater pin.&#013;&#010;&#013;&#010;This works with C_CONF_CAT_EFF at 0 or 1 (set to 1 to leave the downstream O2 adc inputs active for logging a wideband controller or other input, otherwise set to 0).&#013;&#010;&#013;&#010;Use with Variable Intake Enable (C_CONF_VIM = 2). Two-stage mode only.&#013;&#010;&#013;&#010;Polarity assumed pin low = on, NOT YET TESTED.&#013;&#010;&#013;&#010;- Not A TR7</description>
     <CATEGORYMEM index="0" category="45" />
     <CATEGORYMEM index="1" category="40" />
+    <CATEGORYMEM index="2" category="2048" />
     <XDFPATCHENTRY name="VIM_1 period = heater PWM per" address="0x14DBC" datasize="0x4" patchdata="F2F478FA" basedata="E6F4D530" />
     <XDFPATCHENTRY name="VIM_1 duty -> FA7C (on)" address="0x14DCE" datasize="0x4" patchdata="F6067CFA" basedata="F2180CFE" />
     <XDFPATCHENTRY name="VIM_1 period = heater PWM per" address="0x14DD4" datasize="0x4" patchdata="F2F478FA" basedata="E6F4D530" />
