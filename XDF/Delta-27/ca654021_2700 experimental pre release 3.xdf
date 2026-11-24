@@ -1,11 +1,12 @@
-<!-- Written 11/02/2026 15:31:04 -->
-<XDFFORMAT version="1.80">
+<!-- Written 11/24/2026 14:11:33 by TunerPro 6.00.0535.00 -->
+<XDFFORMAT version="1.80" codepage="1252">
   <XDFHEADER>
     <flags>0x1</flags>
     <fileversion>01</fileversion>
     <deftitle>Hyundai 2.7L Siemens 654021: VIM experimental pre release 2</deftitle>
-    <description>Authors : OpenGK - chase206, dmg210, dante, kylem, KimchiSpiceWorks, Not A TR7&#013;&#010;&#013;&#010;theres a 64 character limit for the author section :~)</description>
-    <author>OpenGK - chase206, dmg210, dante, kylem, KimchiSpiceWorks, Not A</author>
+    <description>Authors : OpenGK - chase206, dmg210, dante, kylem, KimchiSpiceWorks,F3n74NYl&#013;&#010;&#013;&#010;theres a 64 character limit for the author section :~)</description>
+    <author>OpenGK - chase206, dmg210, dante, kylem, KimchiSpiceWorks, F3n74</author>
+    <defguid>{48C826A9-21C2-455E-BF78-64E4DBE998CE}</defguid>
     <BASEOFFSET offset="0" subtract="0" />
     <DEFAULTS datasizeinbits="8" sigdigits="2" outputtype="1" signed="0" lsbfirst="0" float="0" />
     <REGION type="0xFFFFFFFF" startaddress="0x0" size="0x7FFFF" regioncolor="0x0" regionflags="0x0" name="Binary File" desc="This region describes the bin file edited by this XDF" />
@@ -35,7 +36,7 @@
     <description>Index: 277  kf 213: ip_isapwm_dhp__n__tps&#013;&#010;            IP_ISAPWM_DHP[ ] = f(N[rpm],TPS[&#176;TPS])&#013;&#010;&#013;&#010;Dashpot function for MT</description>
     <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8A96" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8A96" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>%</units>
       <indexcount>5</indexcount>
       <decimalpl>1</decimalpl>
@@ -48,7 +49,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8A8E" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8A8E" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>RPM</units>
       <indexcount>7</indexcount>
       <outputtype>2</outputtype>
@@ -77,7 +78,7 @@
     <description>Index: 278  kf 213a: ip_isapwm_dhp_at__n__tps&#013;&#010;            IP_ISAPWM_DHP_AT[ ] = f(N[rpm],TPS[&#176;TPS])&#013;&#010;&#013;&#010;Dashpot function for AT</description>
     <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8A96" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8A96" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>%</units>
       <indexcount>5</indexcount>
       <decimalpl>1</decimalpl>
@@ -90,7 +91,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8A8E" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8A8E" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>RPM</units>
       <indexcount>7</indexcount>
       <outputtype>2</outputtype>
@@ -119,7 +120,7 @@
     <description>Degrees of ignition advance for given RPM and engine load range.&#013;&#010;&#013;&#010;X Axis is milligrams per stroke of airflow&#013;&#010;Y axis is RPM</description>
     <CATEGORYMEM index="0" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x914E" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x914E" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>mg/stroke</units>
       <indexcount>12</indexcount>
       <outputtype>2</outputtype>
@@ -132,7 +133,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8EF8" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8EF8" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>RPM</units>
       <indexcount>16</indexcount>
       <outputtype>2</outputtype>
@@ -172,7 +173,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>6</indexcount>
       <decimalpl>0</decimalpl>
       <outputtype>4</outputtype>
@@ -205,7 +206,7 @@
     <title>A3C8 4x4 8bit Ignition Table Idle</title>
     <CATEGORYMEM index="0" category="9" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x9172" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9172" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>mg/stroke</units>
       <indexcount>4</indexcount>
       <outputtype>2</outputtype>
@@ -218,7 +219,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x9168" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9168" mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>RPM</units>
       <indexcount>4</indexcount>
       <outputtype>2</outputtype>
@@ -259,7 +260,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x9104" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9104" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>RPM to correct</units>
       <indexcount>12</indexcount>
       <embedinfo type="3" linkobjid="0x5302" />
@@ -297,7 +298,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x9104" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x9104" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>rpm</units>
       <indexcount>12</indexcount>
       <embedinfo type="3" linkobjid="0x5302" />
@@ -334,7 +335,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>16</units>
       <indexcount>16</indexcount>
       <datatype>0</datatype>
@@ -388,7 +389,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>7</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -423,7 +424,7 @@
     <description>TPS axis for various functions</description>
     <CATEGORYMEM index="0" category="1" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>5</indexcount>
       <decimalpl>1</decimalpl>
       <datatype>57</datatype>
@@ -465,7 +466,7 @@
     <description>Index: 269  kf 211: ip_isapwm_tps__n__tps&#013;&#010;            IP_ISAPWM_TPS[%] = f(N[rpm], TPS[&#176;TPS])&#013;&#010;&#013;&#010;Idle speed actuator vs TPS postion</description>
     <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8A96" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8A96" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>5</indexcount>
       <decimalpl>1</decimalpl>
       <embedinfo type="3" linkobjid="0x7972" />
@@ -477,7 +478,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8A8E" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8A8E" mmedelementsizebits="8" mmedcolcount="7" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>7</indexcount>
       <embedinfo type="3" linkobjid="0x79E7" />
       <datatype>0</datatype>
@@ -515,7 +516,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8ABA" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8ABA" mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>RPM</units>
       <indexcount>5</indexcount>
       <embedinfo type="3" linkobjid="0x3447" />
@@ -552,7 +553,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>6</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -595,7 +596,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0xB19D" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0xB19D" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>&#176;C</units>
       <indexcount>16</indexcount>
       <embedinfo type="3" linkobjid="0x2AB8" />
@@ -634,7 +635,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>12</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -683,7 +684,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8DEB" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8DEB" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>V</units>
       <indexcount>16</indexcount>
       <embedinfo type="3" linkobjid="0xE5C" />
@@ -710,7 +711,7 @@
     <description>Milliseconds of injection time for given RPM and engine load range.&#013;&#010;&#013;&#010;X Axis is milligrams per stroke of airflow&#013;&#010;Y axis is RPM</description>
     <CATEGORYMEM index="0" category="5" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x914E" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x914E" mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>mg/stroke</units>
       <indexcount>12</indexcount>
       <outputtype>2</outputtype>
@@ -723,7 +724,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8EF8" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8EF8" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>RPM</units>
       <indexcount>16</indexcount>
       <outputtype>2</outputtype>
@@ -751,7 +752,7 @@
     <description>Milliseconds of injection time for given RPM and engine load range.&#013;&#010;&#013;&#010;X Axis is milligrams per stroke of airflow&#013;&#010;Y axis is RPM</description>
     <CATEGORYMEM index="0" category="5" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x914E" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x914E" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>mg/stroke</units>
       <indexcount>8</indexcount>
       <outputtype>2</outputtype>
@@ -764,7 +765,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8EF8" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8EF8" mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <outputtype>2</outputtype>
       <embedinfo type="3" linkobjid="0x6851" />
@@ -818,7 +819,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedtypeflags="0x02" mmedelementsizebits="16" mmedcolcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
       <indexcount>16</indexcount>
       <decimalpl>0</decimalpl>
       <datatype>0</datatype>
@@ -867,7 +868,6 @@
     <title>Variable Intake Enable</title>
     <description>Enables variable intake using same values as a tuscan bin. Requires installing a variable intake, and either running 2 wires from the ecu or using the VIM on Lambda program zone patch.&#013;&#010;&#013;&#010;- Not A TR7</description>
     <CATEGORYMEM index="0" category="45" />
-    <CATEGORYMEM index="1" category="40" />
     <XDFPATCHENTRY name="Auto Generated Mod Part 1" address="0x80CE" datasize="0x2" patchdata="0101" basedata="0000" />
     <XDFPATCHENTRY name="Auto Generated Mod Part 2" address="0x80FD" datasize="0x2" patchdata="4646" basedata="FFFF" />
     <XDFPATCHENTRY name="Auto Generated Mod Part 3" address="0x8122" datasize="0x1" patchdata="02" basedata="00" />
@@ -886,16 +886,15 @@
     <title>VIM on Lambda</title>
     <description>THIS IS A PROGRAM PATCH NOT A CALIBRATION PATCH&#013;&#010; - developed for ca654021_G5N7TS0B_KR77035116&#013;&#010;&#013;&#010;Moves the VIM outputs onto the downstream O2 heater pins and turns the heaters off in code. VIM_1 drives  the bank 1 heater pin, VIM_2 the bank 2 heater pin.&#013;&#010;&#013;&#010;This works with C_CONF_CAT_EFF at 0 or 1 (set to 1 to leave the downstream O2 adc inputs active for logging a wideband controller or other input, otherwise set to 0).&#013;&#010;&#013;&#010;Use with Variable Intake Enable (C_CONF_VIM = 2). Two-stage mode only.&#013;&#010;&#013;&#010;Polarity assumed pin low = on, NOT YET TESTED.&#013;&#010;&#013;&#010;- Not A TR7</description>
     <CATEGORYMEM index="0" category="45" />
-    <CATEGORYMEM index="1" category="40" />
-    <CATEGORYMEM index="2" category="2048" />
+    <CATEGORYMEM index="1" category="2048" />
     <XDFPATCHENTRY name="VIM_1 period = heater PWM per" address="0x14DBC" datasize="0x4" patchdata="F2F478FA" basedata="E6F4D530" />
-    <XDFPATCHENTRY name="VIM_1 duty -> FA7C (on)" address="0x14DCE" datasize="0x4" patchdata="F6067CFA" basedata="F2180CFE" />
+    <XDFPATCHENTRY name="VIM_1 duty -&gt; FA7C (on)" address="0x14DCE" datasize="0x4" patchdata="F6067CFA" basedata="F2180CFE" />
     <XDFPATCHENTRY name="VIM_1 period = heater PWM per" address="0x14DD4" datasize="0x4" patchdata="F2F478FA" basedata="E6F4D530" />
-    <XDFPATCHENTRY name="VIM_1 duty -> FA7C (off)" address="0x14DE6" datasize="0x4" patchdata="F6067CFA" basedata="F2180CFE" />
+    <XDFPATCHENTRY name="VIM_1 duty -&gt; FA7C (off)" address="0x14DE6" datasize="0x4" patchdata="F6067CFA" basedata="F2180CFE" />
     <XDFPATCHENTRY name="VIM_2 period = heater PWM per" address="0x14E84" datasize="0x4" patchdata="F2F478FA" basedata="E6F4D430" />
-    <XDFPATCHENTRY name="VIM_2 duty -> FA7E (on)" address="0x14E96" datasize="0x4" patchdata="F6067EFA" basedata="F60672FA" />
+    <XDFPATCHENTRY name="VIM_2 duty -&gt; FA7E (on)" address="0x14E96" datasize="0x4" patchdata="F6067EFA" basedata="F60672FA" />
     <XDFPATCHENTRY name="VIM_2 period = heater PWM per" address="0x14E9C" datasize="0x4" patchdata="F2F478FA" basedata="E6F4D430" />
-    <XDFPATCHENTRY name="VIM_2 duty -> FA7E (off)" address="0x14EAE" datasize="0x4" patchdata="F6067EFA" basedata="F60672FA" />
+    <XDFPATCHENTRY name="VIM_2 duty -&gt; FA7E (off)" address="0x14EAE" datasize="0x4" patchdata="F6067EFA" basedata="F60672FA" />
     <XDFPATCHENTRY name="Downstream heater bank 1 duty" address="0x1F51A" datasize="0x4" patchdata="CC00CC00" basedata="F6067CFA" />
     <XDFPATCHENTRY name="Downstream heater bank 1 duty" address="0x3608A" datasize="0x4" patchdata="CC00CC00" basedata="F6067CFA" />
     <XDFPATCHENTRY name="Downstream heater bank 1 duty" address="0x360E4" datasize="0x4" patchdata="CC00CC00" basedata="F6067CFA" />
@@ -905,6 +904,14 @@
     <XDFPATCHENTRY name="Downstream heater bank 2 duty" address="0x36118" datasize="0x4" patchdata="CC00CC00" basedata="F6067EFA" />
     <XDFPATCHENTRY name="Downstream heater bank 2 duty" address="0x36442" datasize="0x4" patchdata="CC00CC00" basedata="F6067EFA" />
     <XDFPATCHENTRY name="Start downstream heater PWM c" address="0x1F508" datasize="0x4" patchdata="CC00CC00" basedata="9A3E4310" />
+  </XDFPATCH>
+  <XDFPATCH uniqueid="0xBC22">
+    <title>Knock Retard in Log</title>
+    <description>THIS IS A PROGRAM PATCH NOT A CALIBRATION PATCH&#010; - developed on CA654021_G5N7TS0B_KR77035116,  I haven&apos;t   compared the program zones of the CA654021_*.bins on the github, but in theory this should work for all of them. &#010;&#010;In the logged output this replaces:&#010;&quot;Injection Time Bank 1 avg&quot; and &quot;Injection Time Bank 2 avg&quot; (redundant, can be calculated from per cylinder injection time) with knock retard for cylinders 1-4.&#010;And 0x58 and 0x59 (always 0, pointed to zero register) with knock retard for cylinders 5&amp;6&#010;&#010;- F3n74NYl</description>
+    <CATEGORYMEM index="0" category="45" />
+    <CATEGORYMEM index="1" category="2048" />
+    <XDFPATCHENTRY name="Auto Generated Mod Part 1" address="0x126E8" datasize="0x8" patchdata="49E14BE14DE14FE1" basedata="A4F9A5F9A6F9A7F9" />
+    <XDFPATCHENTRY name="Auto Generated Mod Part 2" address="0x1272A" datasize="0x4" patchdata="51E153E1" basedata="1CFF1DFF" />
   </XDFPATCH>
   <XDFCONSTANT uniqueid="0x4568">
     <title>821F RPM Launch Limit 1</title>
@@ -1066,7 +1073,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="3" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>3</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -1105,7 +1112,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="3" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>3</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -1133,7 +1140,7 @@
     <description>Conversion equation is UNKNOWN.&#013;&#010;&#013;&#010;Set all values to 4701 to enable high fan duty cycle when trigger temp is reached. For variability revert back to the OEM values.</description>
     <CATEGORYMEM index="0" category="16" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>6</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -1149,7 +1156,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="20" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>20</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -1194,7 +1201,7 @@
     <description>This should match the XDF file version.</description>
     <CATEGORYMEM index="0" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>6</indexcount>
       <outputtype>4</outputtype>
       <datatype>0</datatype>
@@ -1237,7 +1244,7 @@
     <description>Chassis/Year/Region/Engine&#013;&#010;&#013;&#010;May be used by NGM to identify tune parameters. Example being &quot;Stg2_310I&quot; indicating Stage 2 310.</description>
     <CATEGORYMEM index="0" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <outputtype>4</outputtype>
       <datatype>0</datatype>
@@ -1281,7 +1288,7 @@
     <title>Machine Code Version</title>
     <CATEGORYMEM index="0" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="10" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>10</indexcount>
       <outputtype>4</outputtype>
       <datatype>0</datatype>
@@ -1328,7 +1335,7 @@
     <description>Printed on ECM label</description>
     <CATEGORYMEM index="0" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>12</indexcount>
       <outputtype>4</outputtype>
       <datatype>0</datatype>
@@ -1377,7 +1384,7 @@
     <description>Last 4 digits are printed on ECM label</description>
     <CATEGORYMEM index="0" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <outputtype>4</outputtype>
       <datatype>0</datatype>
@@ -1422,7 +1429,7 @@
     <description>Printed on ECM label</description>
     <CATEGORYMEM index="0" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <outputtype>4</outputtype>
       <datatype>0</datatype>
@@ -1467,7 +1474,7 @@
     <description>May be blank with zeros or &#255; for years 2002-2004.</description>
     <CATEGORYMEM index="0" category="44" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="17" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>17</indexcount>
       <outputtype>4</outputtype>
       <datatype>0</datatype>
@@ -1520,7 +1527,7 @@
     <title>C110 Idle Speed With Load</title>
     <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x87C4" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x87C4" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>C</units>
       <indexcount>6</indexcount>
       <embedinfo type="3" linkobjid="0x5CD2" />
@@ -1557,7 +1564,7 @@
     <title>C234 Idle Speed With Load AT</title>
     <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x87C4" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x87C4" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>C</units>
       <indexcount>6</indexcount>
       <embedinfo type="3" linkobjid="0x5CD2" />
@@ -1594,7 +1601,7 @@
     <title>C25C Idle Speed Without Load AT</title>
     <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x87C4" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x87C4" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>C</units>
       <indexcount>6</indexcount>
       <embedinfo type="3" linkobjid="0x5CD2" />
@@ -1631,7 +1638,7 @@
     <title>CA44 Idle Speed Without Load</title>
     <CATEGORYMEM index="0" category="17" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x87C4" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x87C4" mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>C</units>
       <indexcount>6</indexcount>
       <embedinfo type="3" linkobjid="0x5CD2" />
@@ -1681,7 +1688,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8EF8" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8EF8" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>RPM</units>
       <indexcount>16</indexcount>
       <outputtype>2</outputtype>
@@ -1722,7 +1729,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8EF8" mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8EF8" mmedelementsizebits="8" mmedcolcount="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>RPM</units>
       <indexcount>16</indexcount>
       <outputtype>2</outputtype>
@@ -2077,7 +2084,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2124,7 +2131,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2172,7 +2179,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2219,7 +2226,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2267,7 +2274,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2314,7 +2321,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2361,7 +2368,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="6" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>6</indexcount>
       <decimalpl>1</decimalpl>
       <outputtype>2</outputtype>
@@ -2405,7 +2412,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8C2C" mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8C2C" mmedelementsizebits="16" mmedcolcount="6" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>6</indexcount>
       <embedinfo type="3" linkobjid="0x7B16" />
       <datatype>3</datatype>
@@ -2431,7 +2438,7 @@
     <description>Description: variable intake manifold - Size: BYTE, TR: mifo&#013;&#010;&#013;&#010;value in ca655022: all 0 (single-stage map unused when C_CONF_VIM = 2). Rows follow the rpm axis, columns the TPS axis</description>
     <CATEGORYMEM index="0" category="40" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x883A" mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x883A" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <embedinfo type="3" linkobjid="0x7B11" />
       <datatype>3</datatype>
@@ -2442,7 +2449,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8831" mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8831" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <embedinfo type="3" linkobjid="0x7B10" />
       <datatype>3</datatype>
@@ -2468,7 +2475,7 @@
     <description>Description: variable intake manifold, 1 - Size: BYTE, TR: at6naki1&#013;&#010;&#013;&#010;value in ca655022: rows 0-3 = 0, rows 4-7 = 1 in every column (VIM_1 on above the rpm axis index 4, about 3400 rpm). Rows follow the rpm axis, columns the TPS axis</description>
     <CATEGORYMEM index="0" category="40" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x884C" mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x884C" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <embedinfo type="3" linkobjid="0x7B13" />
       <datatype>3</datatype>
@@ -2479,7 +2486,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8843" mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8843" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <embedinfo type="3" linkobjid="0x7B12" />
       <datatype>3</datatype>
@@ -2505,7 +2512,7 @@
     <description>Description: variable intake manifold, 2 - Size: BYTE, TR: at6naki1&#013;&#010;&#013;&#010;value in ca655022: rows 0-5 = 0, rows 6-7 = 1 in every column (VIM_2 on above the rpm axis index 6, about 4900 rpm). Rows follow the rpm axis, columns the TPS axis</description>
     <CATEGORYMEM index="0" category="40" />
     <XDFAXIS id="x" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x885E" mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x885E" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <embedinfo type="3" linkobjid="0x7B15" />
       <datatype>3</datatype>
@@ -2516,7 +2523,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedaddress="0x8855" mmedelementsizebits="16" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedaddress="0x8855" mmedelementsizebits="16" mmedcolcount="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>8</indexcount>
       <embedinfo type="3" linkobjid="0x7B14" />
       <datatype>3</datatype>
@@ -2590,7 +2597,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="2" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>2</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -2628,7 +2635,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>4</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -2668,7 +2675,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="4" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>4</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
@@ -2708,7 +2715,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="12" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <units>rpm</units>
       <indexcount>12</indexcount>
       <datatype>6</datatype>
@@ -2758,7 +2765,7 @@
       </MATH>
     </XDFAXIS>
     <XDFAXIS id="y" uniqueid="0x0">
-      <EMBEDDEDDATA mmedelementsizebits="8" mmedmajorstridebits="-32" mmedminorstridebits="0" />
+      <EMBEDDEDDATA mmedelementsizebits="8" mmedcolcount="5" mmedmajorstridebits="-32" mmedminorstridebits="0" />
       <indexcount>5</indexcount>
       <datatype>0</datatype>
       <unittype>0</unittype>
